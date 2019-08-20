@@ -5,6 +5,10 @@ Editor de Spyder
 Este es un archivo temporal.
 """
 
+#En esta secuencia de codigos se recordo el contenido relacionado con el funcionamiento del condicional If y sus derivados elif y else.
+
+
+
 #minuto 7:56
 a = 1 # definiendo variables
 b = 2
