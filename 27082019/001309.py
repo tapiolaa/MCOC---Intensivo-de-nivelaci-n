@@ -64,7 +64,7 @@ plt.imshow(foto[:,:,0].T)
 plt.show()
 
 x = np.array([2,1,3,4,5])
-no.sort(x) #ordenando el arrglos de menor a mayor
+np.sort(x) #ordenando el arrglos de menor a mayor
 
 
 
