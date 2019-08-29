@@ -112,10 +112,10 @@ from io import StringIO
 c = StringIO(u"0 1\n2 3")
 print(np.loadtxt(c), type(c))
 
-data = np.loadtxt("data1.txt", delimiter=',', skiprows=0)#importar archivo txt o csv de manera rapida y en lo parametros que se requieran
+data = np.loadtxt("data1.txt", dtype = np.uint8, delimiter=',', skiprows=0)#importar archivo txt o csv de manera rapida y en lo parametros que se requieran
 #skiprows es para saltarse las primeras lineas. si pongo 0 no se salta ninguna si pongo 1 se salta la primera.
 #delimeter es para que reconozca el elemento que delimita cada elemento
-
+#dtype le da el formato a los elementos del texto al momento de crear el arreglo en python
 
 print(data)
 
